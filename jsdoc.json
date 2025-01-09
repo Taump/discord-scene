@@ -1,0 +1,15 @@
+{
+  "plugins": [
+      "node_modules/jsdoc-tsimport-plugin/index.js"
+  ],
+  "source": {
+      "include": ["src"],
+      "includePattern": ".+\\.js$",
+      "exclude": ["node_modules"]
+  },
+  "opts": {
+      "template": "./node_modules/@otris/jsdoc-tsd",
+      "recurse": true,
+      "destination": "./types/index.d.ts"
+  }
+}

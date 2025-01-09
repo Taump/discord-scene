@@ -1,4 +1,9 @@
 /**
+ * The main export of the discord-scene module. Provides classes for managing stages, scenes, and session storage.
+ */
+declare const discordScene: Object;
+
+/**
  * Represents a scene with lifecycle callbacks for entering, leaving, and handling messages.
  */
 declare class Scene {

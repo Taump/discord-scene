@@ -6,7 +6,7 @@
     "types": "types/index.d.ts",
     "scripts": {
         "test": "echo \"No tests yet\"",
-        "build:types": "jsdoc -t ./node_modules/@otris/jsdoc-tsd -r src -d types/index.d.ts"
+        "build:types": "jsdoc -c /Users/taump/obyte/discord-scene/jsdoc.json"
     },
     "repository": {
         "type": "git",
@@ -26,6 +26,7 @@
         "discord.js": "^14.11.0"
     },
     "devDependencies": {
-        "@otris/jsdoc-tsd": "^3.0.0"
+        "@otris/jsdoc-tsd": "^3.0.0",
+        "jsdoc-tsimport-plugin": "^1.0.5"
     }
 }
