@@ -24,7 +24,7 @@ const {
   Stage,
   Scene,
   MemorySessionStore,
-} = require('discord-scene'); // <-- Import from your library
+} = require('discord-scene');
 
 const client = new Client({
   intents: [
