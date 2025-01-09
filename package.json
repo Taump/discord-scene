@@ -1,6 +1,6 @@
 {
     "name": "discord-scene",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple scene and session system for Discord bots, inspired by Telegraf Scenes",
     "main": "src/index.js",
     "types": "types/index.d.ts",
