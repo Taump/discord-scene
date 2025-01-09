@@ -1,0 +1,31 @@
+{
+    "name": "discord-scene",
+    "version": "1.0.0",
+    "description": "A simple scene and session system for Discord bots, inspired by Telegraf Scenes",
+    "main": "src/index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "test": "echo \"No tests yet\"",
+        "build:types": "jsdoc -t ./node_modules/@otris/jsdoc-tsd -r src -d types/index.d.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/taump/discord-scene.git"
+    },
+    "keywords": [
+        "discord",
+        "discord.js",
+        "bot",
+        "scenes",
+        "session",
+        "telegraf-like"
+    ],
+    "author": "Aleksandr Ponomarev <taump@yandex.ru>",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.11.0"
+    },
+    "devDependencies": {
+        "@otris/jsdoc-tsd": "^3.0.0"
+    }
+}
